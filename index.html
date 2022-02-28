@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buổi 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Văn Đức Huy Linh</h1>
+    <form autocomplete="on">
+    Tên đăng nhập: <input name="tendangnhap" required>
+    <br>
+    E-mail: <input type="email" name="email" autocomplete="off" required>
+    <br>
+    First name: <input type="text" name="fname" autofocus  placeholder="Họ của bạn" required>
+    <br>
+    Last name: <input type="text" name="lname" autofocus placeholder="Tên của bạn" required>
+    <br>
+    Nhập số của bạn:<input type="number" name="number" max="50" min="1" required>
+    <br>
+    <select required>
+        <option value="cs1">Cơ sở 1</option>
+        <option value="cs2">Cơ sở 2</option>
+        <option value="cs3">Cơ sở 3</option>
+        <option value="cs4">Cơ sở 4</option>
+        <option value="cs5">Cơ sở 5</option>
+    </select>
+    <br>
+    <input type="submit" value="Gửi">
+    </form>
+    <audio controls>
+        <source src="DV.mp3" type="audio/mp3">  
+    </audio>
+    <video width="320" height="240" controls>
+        <source src="HH.mp4" type="video/mp4">
+    </video>
+    <br>
+    <!-- Thêm nội dung dưới ảnh -->
+    <figure>
+        <img src="Gđ hói.jpg" alt="Hói cả lũ" height="500px" width="500px">
+        <figcaption>Lũ giặc tối ngày custom</figcaption>
+    </figure>
+    <!-- SVG Đồ họa/Logo cho web, màn hình Retina/độ phân giải dpi cao -->
+    <svg width="500" height="300">
+        <rect width="300" height="300" fill="orange">
+            <animate attributeName="x" from="0" to="300"
+                     dur="10s" fill="freeze" repeatCount="indefinite"/>
+        </rect>
+        <circle cx="100" cy="150" r="50" fill="green" stroke="yellow">
+            <animate attributeName="cx" from="0" to="300"
+                     dur="5s" fill="freeze" repeatCount="indefinite"/>
+        </circle>
+    
+    </svg>
+</body>
+</html>
